@@ -1,0 +1,645 @@
+@charset "utf-8";
+/* CSS Document */
+
+
+
+.Wrapper
+{
+    width: 1000px;
+    margin: auto;
+    height: 2563px;
+    background-color:dimgray;
+}
+/* HEADER WRAPPER */
+#Header-Wrapper
+{
+    width: 100%;
+    height: 593px;
+    background-image: url(../IMAGES/headerbackground_01.png);
+}
+.Header-Menu        
+{
+    width: 100%;
+    height: 100px;
+    float: left;   
+} 
+           .MenuList1
+                     {
+              width: 735px;
+              height: 100px;
+              float: left;
+                        
+              
+                     }
+    
+                  .MenuList1 ul
+                    {
+                 list-style: none;
+                 margin-left: 39%;
+                 padding-top: 24px;
+                 font-size: 13px;
+                 font-weight: bold;
+                
+                    }
+                .MenuList1 ul li
+                    {
+                 display: inline;
+                 margin-left: 0px;
+                 border-style: solid;
+                 border-width: 3px;
+                 padding: 3px 3px 3px 3px;
+                 border-radius: 4px 4px 4px 4px;
+                 border-color: transparent;
+                 color: white;
+                   }
+               .MenuList1 ul li:hover
+                   { 
+                       background-color: #ffa226;
+    
+                   }
+      .MenuList2
+             {
+         width: 265px;
+         height: 100px;
+         float: left;
+        
+             }
+
+                 #SearchBtn
+                {   
+                    margin-left: 6px;
+                    border-radius: 250px;
+                    border: none;
+                    width: 32px;
+                    height: 32px;
+                    border-style: solid;
+                    border-width: 3px;
+                    font-size: 13px;
+                    color: white;
+                    border-color: #ff8f1f;
+                    background-color:transparent;
+                }
+                
+                           #SearchBtn:hover
+                                          {
+                               background-color: #ffa226;
+                                          }
+                #IDBtn
+                {   margin-top: 28px;
+                    margin-left: 140px;
+                    border-radius: 250px;
+                    border: none;
+                    width: 32px;
+                    height: 32px;
+                    border-style: solid;
+                    border-width: 3px;
+                    font-size: 13px;
+                    color: white;
+                    border-color: #ff8f1f;
+                    background-color: transparent;
+                }
+                             #IDBtn:hover
+                                          {
+                               background-color: #ffa226;
+                                          }
+
+
+      
+.TEXT-Arrows
+{
+    width: 1000px;
+    height: 185px;
+    float: left;
+    margin-top: 86px;
+   
+}
+       .TEXT{
+         width: 650px;
+         height: 185px;
+         
+         float: left;
+         
+            }
+                 .TEXT h2
+                  {
+                    text-align: center;
+                    font-weight: bold;
+                    color: white;
+                    font-size: 30px;
+                    
+                  }
+                 
+                 .TEXT h1
+                  {
+                    text-align: center;
+                    font-weight: bold;
+                    margin-left: 20px;
+                    color: white;
+                      font-family: 'Fredoka One', cursive;
+                      font-family: 'Raleway', sans-serif;
+                      font-size: 36px;
+                  } 
+                  
+                 .TEXT h3
+                  {
+                    text-align: center;
+                    font-weight: bold;
+                    color: white;
+                    margin-left: 9px;  
+                  } 
+.leftarrow{
+    height: 185px;
+    width: 175px;
+    float: left;
+    
+}
+            .leftarrow button 
+                     {
+                width: 40px;
+                height: 40px;
+                margin-top: 105px;
+                margin-left: 65px;
+                border-radius: 250%;
+                border: none;
+                color: #3a2532;
+                font-size: 18px;
+                background-color:#745e79;
+                     }
+             .leftarrow button :hover
+                       {
+                           color: #ff5308;
+                       }
+.rightarrow{
+    height: 185px;
+    width: 175px;
+    float: right;
+   
+}
+             .rightarrow button 
+                     {
+                width: 40px;
+                height: 40px;
+                margin-top: 105px;
+                margin-left: 65px;
+                border-radius: 250%;
+                border: none;
+                color: #3a2532;
+                font-size: 18px;
+                background-color:#745e79;
+                     }
+              .rightarrow button :hover
+                       {
+                           color: #ffa226;
+                       }
+
+
+.Buttons 
+{
+    float: left;
+    width: 600px;
+    height: 100px;
+    margin-left: 300px;
+}
+                 #AboutBtn
+                  {
+                 margin-top: 30px;
+                 border-radius: 350px 350px 350px 350px;
+                 margin-left: 18px;
+                 width: 145px;
+                 height: 45px;
+                 color: white;
+                 border-color: #ffa627;
+                 background-color: transparent;
+                 border-style: solid;
+                 border-width: 3px;
+                 font-weight: bold;
+                 }
+                 #AboutBtn:hover
+                  {
+                    background: #ffa226;
+                  }
+             
+               
+                #GetStartBtn
+                  {
+                 margin-top: 30px;
+                 padding: 8px 8px 8px 8px;
+                 border-radius: 350px 350px 350px 350px;
+                 margin-left: 25px;
+                 width: 145px;
+                 height: 45px;
+                 color: white;
+                 border-color: #ffa627;
+                 background-color: transparent;
+                 border-style: solid;
+                 border-width: 3px;    
+                 font-weight: bold;
+                 }
+                 #GetStartBtn:hover
+                  {
+                    background: #ffa226;
+                  }
+
+/* CONTENT WRAPPER */
+#Content-Wrapper
+{
+    width: 100%;
+    
+    float: left;
+}                                             
+                                               /*1ST'DIV */
+ 
+                                               .Content-1st-Div   
+                                                   {    
+                                                       float: left;
+                                                       width: 100%;
+                                                       height: 520px;
+                                                       background-color:white;
+                                                   }
+
+                    .Content1stDivTEXT
+                            {  
+                              float: left;
+                              width: 100%;
+                              height: 211px;
+                              
+                            }
+                                
+                                .Content1stDivTEXT img
+                                            { 
+                                                margin-left: 247px;
+                                                margin-top: 87px;
+                                            }
+                                              
+                    .Content1stDivPICTURES
+                            {  
+                              float: left;
+                              width: 100%;
+                              height: 241px;
+                              
+                            }     
+                                     .leftimg
+                                           { 
+                                           width: 201px;
+                                           height: 241px;
+                                           float: left;
+                                           margin-left: 56px;
+                                           }
+                                      .midimg
+                                           { 
+                                           width: 425px;
+                                           height: 241px;
+                                           float: left; 
+                                           margin-left: 16px;
+                                            }
+                                      .rightimg
+                                            { 
+                                           width: 205px;
+                                           height: 241px;
+                                           float: left;
+                                           margin-left:16px;
+                                            }
+
+                       /* 2ND'DIV */                          
+                    .Content-2nd-Div
+                                      {
+                                          width: 100%;
+                                          height: 500px;
+                                          background-color:#f7f7f7;
+                                          float: left;
+                                      }
+                            
+                               .Content2ndDivTEXTndButton
+                                              {
+                                       width:  350px;
+                                       height: 500px;
+                                       float: left;                                
+                                               }
+                                            .Content2ndDivTEXTndButton img
+                                              {
+                                                  margin-left: 56px;
+                                                  margin-top: 100px;
+                                              }
+                                                         #AboutEMGTBtn
+                                                            {
+                                                                margin-left: 56px;
+                                                                margin-top: 40px;
+                                                                width: 145px;
+                                                                height: 33px;
+                                                                color: white;
+                                                                border-color: #ffa627;
+                                                                background-color: #ffa226;
+                                                                border-style: solid;
+                                                                border-width: 3px;    
+                                                                font-weight: bold;
+                                                                border-radius: 240px;
+                                                            }
+                                                                #AboutEMGTBtn:hover
+                                                                    {
+                                                                     color: black;
+                                                                    }
+                    .Content2ndDivButtons
+                            {
+                              width: 450px;
+                              height: 300px;
+                              float: left;
+                              margin-left: 100px;
+                              margin-top: 90px;
+                            }
+                                #FrndlyTeamBtn 
+                                  {
+                                  width: 150px;
+                                  height: 150px;
+                                  border-width: 1px;
+                                  border-style: solid;
+                                  background-color: white;
+                                  float: left;
+                                  }
+                                       #FrndlyTeamBtn:hover
+                                       {
+                                       background-color: #ffa226;
+                                       }
+                                   #PerfectVanueBtn
+                                  {
+                                  width: 150px;
+                                  height: 150px;
+                                  border-width: 1px;
+                                  border-style: solid;
+                                  background-color: white;
+                                  float: left;
+                                  }
+                                       #PerfectVanueBtn:hover
+                                       {
+                                       background-color: #ffa226;
+                                       }
+                                       #PerfectVanueBtn img 
+                                       {
+                                       font-size: 11px;  
+                                       }
+                                       #PerfectVanueBtn p 
+                                       {
+                                        padding-bottom: 2px;
+                                       font-size: 11px;  
+                                       }
+                                    #UniqueScenarioBtn
+                                  {
+                                  width: 150px;
+                                  height: 150px;
+                                  border-width: 1px;
+                                  border-style: solid;
+                                  background-color: white;
+                                  float: left;
+                                  }
+                                       #UniqueScenarioBtn:hover
+                                       {
+                                       background-color: #ffa226;
+                                       }
+                                 #UnforgettableBtn 
+                                 { 
+                                  width: 150px;
+                                  height: 150px;
+                                  border-width: 1px;
+                                  border-style: solid;
+                                  background-color: white;
+                                  float: left;
+                                  }
+                                       #UnforgettableBtn:hover
+                                       {
+                                       background-color: #ffa226;
+                                       }
+                                  #SupportBtn 
+                                 { 
+                                  width: 150px;
+                                  height: 150px;
+                                  border-width: 1px;
+                                  border-style: solid;
+                                  background-color: white;
+                                  float: left;
+                                  }
+                                       #SupportBtn:hover
+                                       {
+                                       background-color: #ffa226;
+                                       }
+                                  #SocialMeidaBtn
+                                 { 
+                                  width: 150px;
+                                  height: 150px;
+                                  border-width: 1px;
+                                  border-style: solid;
+                                  background-color: white;
+                                  float: left;
+                                  }  
+                                       #SocialMeidaBtn:hover
+                                       {
+                                       background-color: #ffa226;
+                                       }
+              
+               /*3RD'DIV */
+
+            .Content-3rd-Div
+                {
+                    width: 100%;
+                    
+                    float: left;
+                   
+                }
+                      .Content3rdDivTEXTndButton
+                          {
+                              height: 163px;
+                              width: 100%;
+                              float: left;
+                              background-image: url(../IMAGES/contntOrgcovr_02.png);
+                          }
+                             .Content3rdDivTEXTndButton h2
+                                   {
+                                     padding-top: 39px;
+                                     text-align: center;
+                                     color: white;
+                                   }
+             #GetStartedBtn 
+                 {
+                 border-radius: 350px 350px 350px 350px;
+                 margin-left: 41%;
+                 width: 138px;
+                 height: 45px;
+                 color: #ffa627;
+                 border-color: #ffa627;
+                 background-color: white;
+                  border: none;
+                 border-width: none;    
+                 font-weight: bold;
+                 font-size: 14px;
+                 }
+                 #GetStartedBtn:hover
+                    {
+                      color: black;
+                    }
+                    
+
+        .UP-BUTTON{
+                height: 85px;
+                width: 100%;
+                background-color: white;
+                float: left;
+                  }
+                    #UpButton
+                        {
+                          height: 50px;
+                          width: 30px;
+                          border-radius: 8px;
+                          border: none;
+                          float: right;
+                          font-size: 20px;
+                          margin-top: 15px;
+                          margin-right: 10px;
+                          color: white;
+                          border: none;
+                          background-color: #ff5b0b
+                        }
+                   #UpButton:hover 
+                    {
+                      color: black;
+                    }
+
+             .Content3rdDivMapndeSocialManagemnt
+               {
+               float: left;
+               background-image: url(../IMAGES/Map_06.png);
+               height: 401px;
+               width: 100%;
+               } 
+
+          .eSocialManagement
+            {
+              width: 405px;
+              height: 186px;
+              background-image: url(../IMAGES/eSocialMange2_04.png);
+              float: left;
+              margin-top: 90px;
+              margin-left: 20px;
+            }
+                 .eSocialManagement p{
+                          padding-top: 30px;
+                          margin-left: 19px;
+                          color: white;
+                          font-size: 19px;
+                                     }
+                   #ViewMapBtn 
+                        {
+                          height: 38px;
+                          width: 150px;
+                          border-radius: 20px;
+                          margin-left: 52px;
+                          font-size:14px;
+                          border-color: #ffa627;
+                          background-color: white;
+                          border: none;
+                          border-width: none;    
+                          font-weight: bold;
+                          font-size: 14px;
+                          color: #ffa627;
+                        }
+                      #ViewMapBtn:hover 
+                    {
+                      color: black;
+                    }
+               .DirctionNdSave
+                   {
+                   width: 50px;
+                   height: 135px;
+                   float: right;
+                   margin-top: 35px;
+                   margin-right: 35px;
+                   }
+  
+
+/* FOOTER WRAPPER */
+#Footer-Wrapper 
+{   height: 301px;
+    width: 100%;
+    float: left;
+    background-color: #252525;
+}
+        .Footer1stDivNetwork
+            {
+            float: left;
+            width: 45%;
+            height: 301px;
+            background-color:#252525;
+            }
+                     #MailIcon{
+                          margin-left: 56px;
+                          margin-top: 95px;
+                          font-size:20px;
+                         color: #ff5e0c;
+                              }
+                     #PhoneIcon{
+                          margin-left: 56px;
+                          margin-top: 8px;
+                         font-size:20px;
+                         color: #ff5e0c;
+                               }
+                     .Footer1stDivNetwork h4
+                               {
+                          margin-left: 50px;
+                          color: white;
+                          font-weight: bold;
+                          font-size: 19px;
+                                   
+                         
+                               }
+                      #Twittricon
+                               {
+                          float: left; 
+                          margin-left: 50px;
+                          font-size: 30px;
+                            color: #4c4b4b;
+                               }
+                      #Facebookicon
+                               {
+                          float: left; 
+                          margin-left: 12px;
+                          font-size: 30px;
+                          color: #4c4b4b;
+                               }
+                      #instagramicon
+                               {
+                          float: left; 
+                          margin-left: 12px;
+                          font-size: 30px;
+                         color: #4c4b4b;
+                               }
+                      #gmailicon
+                               {
+                          float: left; 
+                          margin-left: 12px;
+                          font-size: 30px;
+                          color: #4c4b4b;
+                               }
+
+
+    .Footer2ndDivUsefulLiknks
+             {
+            float: left;
+            width: 55%;
+            height: 301px;
+            background-color:#252525;
+             } 
+                  .Footer2ndDivUsefulLiknks h3
+                    {
+                       margin-top: 42px;
+                       color: white;
+                    }
+                  .Footer2ndDivUsefulLiknks i
+                    {  color: #d9d9d9;
+                       font-size: 18px;
+                    }
+                  .Footer2ndDivUsefulLiknks hr
+                    {
+                        width: 230px;
+                        float: left;
+                        height: 0px;    
+                    }
+                    
+
+ 
